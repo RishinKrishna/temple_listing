@@ -1,0 +1,69 @@
+.home-img {
+  /* background-image: url("../assets/images/brihadisvara-temple.webp"); */
+  /* background-size: cover; */
+  width: 100%;
+  height: 90vh;
+}
+.home-img .image-caption {
+  position: relative;
+  z-index: 2;
+}
+.captiopn-wrapper{
+  position: relative;  
+  height: 100%;
+  z-index: 5;
+}
+
+.temple-listing {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-top: 50%;
+  font-size: 70px;
+  color: #fff;
+}
+
+.overley-home {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.17);
+}
+
+.carousel-img {
+  width: 100%;
+  height: 90vh;
+  background: #000;
+  animation: fadeout 5s infinite ease-in;
+}
+
+@keyframes fadeout {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.2);
+    /* opacity: 0.5; */
+  }
+}
+.search-temple{
+    width: 100%;
+    padding: 50px 250px; 
+    background-color: #fff;
+    border-radius: 20px;
+}
+.find-header{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ff6b07;
+}
+.main-hader{
+  font-size: 40px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+  font-weight: 800;
+}

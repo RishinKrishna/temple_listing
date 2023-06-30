@@ -1,0 +1,22 @@
+.temple-input{
+    width: 100%;
+    height: 45px;
+    border-radius: 50px;
+    border: 1px solid gray;
+    background-color: #E0EFF7;
+    display: flex;
+
+}
+.search-input{
+    width: 100%;
+    background: transparent;
+    position: relative;
+    border: none;
+    height: 43px;
+    border-radius: 50px;
+    padding: 20px;
+}
+.search-icon{
+    width: 46px;
+    padding-right: 20px;
+}

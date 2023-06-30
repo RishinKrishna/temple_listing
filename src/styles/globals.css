@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background:#E0EFF7;
+}
+.label-style {
+  display: block;
+  font-weight: bold;
+  margin: 0 0 8px 0;
+}
+
+input:focus-visible {
+  outline: none;
+}
+
+.input-style {
+  width: 100%;
+  padding: 8px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+/* HEADINGS */
+.t-caption-1{ 
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 35px !important;
+  letter-spacing: 0.5px;
+  line-height: 1rem;
+}
+.t-heading-1{ 
+  font-size: 21px !important;
+  letter-spacing: 0.5px;
+  line-height: 1rem;
+}
+/* HEADINGS */
+
+
+/* UTILITIES */
+.h-100{
+  height: 100%;
+}
+/* UTILITIES */
