@@ -3,6 +3,8 @@ import Styles from "./search.module.css";
 import SearchImg from "@/assets/images/search-img/search.svg";
 // import DropdowonBtn from "./dropdowonBtn";
 // import { Dropdown } from "bootstrap";
+import Image from 'next/image'
+
 
 const Search = () => {
   return (
@@ -14,7 +16,7 @@ const Search = () => {
           name="serchBox"
           placeholder="Search temple..."
         />
-        <img src={SearchImg.src} className={`d-block ${Styles["search-icon"]}`} alt="..." />
+        <Image src={SearchImg.src} className={`d-block ${Styles["search-icon"]}`} alt="..." />
       </div>
       {/* <DropdowonBtn/> */}
     </div>

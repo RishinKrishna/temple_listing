@@ -1,6 +1,8 @@
 import React from "react";
 import Styles from "./TempleCard.module.css";
 import { useRouter } from "next/router";
+import Image from 'next/image'
+
 
 
 const TempleCard = (props) => {
@@ -12,7 +14,7 @@ const TempleCard = (props) => {
     <div className="col-md-3">
       <div className={Styles["card"]}>
         <div className={Styles["card-listing"]}>
-          <img
+          <Image
             className={Styles["card-listing-img"]}
             src="https://cdn.pixabay.com/photo/2014/02/02/08/41/temple-256588_1280.jpg"
             alt=""

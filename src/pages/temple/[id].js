@@ -12,7 +12,6 @@ const TempleList = () => {
         <div className="row">
           <div className="col-md-7">
             <div className="">
-                <img/>
             </div>
           </div>
           <div className="col-md-5">

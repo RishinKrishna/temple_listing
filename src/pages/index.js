@@ -9,6 +9,8 @@ import golganTempleImg from "@/assets/images/golganTemple.jpg";
 import krishnaImg from "@/assets/images/krishna.jpg";
 import Footer from "@/components/Layout/Footer";
 import LogiBtn from "@/components/LogiBtn";
+import Image from 'next/image'
+
 
 export default function Home() {
   let templeList = [
@@ -76,21 +78,21 @@ export default function Home() {
           >
             <div className="carousel-inner">
               <div className="carousel-item active">
-                <img
+                <Image
                   src={ganapathyImg.src}
                   className={`d-block w-100 ${Styles["carousel-img"]}`}
                   alt="..."
                 />
               </div>
               <div className="carousel-item">
-                <img
+                <Image
                   src={golganTempleImg.src}
                   className={`d-block w-100 ${Styles["carousel-img"]}`}
                   alt="..."
                 />
               </div>
               <div className="carousel-item">
-                <img
+                <Image
                   src={krishnaImg.src}
                   className={`d-block w-100 ${Styles["carousel-img"]}`}
                   alt="..."
