@@ -16,7 +16,8 @@ const Search = () => {
           name="serchBox"
           placeholder="Search temple..."
         />
-        <Image src={SearchImg.src} className={`d-block ${Styles["search-icon"]}`} alt="..." />
+        <Image src={SearchImg.src} className={`d-block ${Styles["search-icon"]}`} alt="..."  width={800}
+      height={500}/>
       </div>
       {/* <DropdowonBtn/> */}
     </div>

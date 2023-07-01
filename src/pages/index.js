@@ -82,6 +82,8 @@ export default function Home() {
                   src={ganapathyImg.src}
                   className={`d-block w-100 ${Styles["carousel-img"]}`}
                   alt="..."
+                  width={800}
+                  height={500}
                 />
               </div>
               <div className="carousel-item">
@@ -89,6 +91,8 @@ export default function Home() {
                   src={golganTempleImg.src}
                   className={`d-block w-100 ${Styles["carousel-img"]}`}
                   alt="..."
+                  width={800}
+                  height={500}
                 />
               </div>
               <div className="carousel-item">
@@ -96,6 +100,8 @@ export default function Home() {
                   src={krishnaImg.src}
                   className={`d-block w-100 ${Styles["carousel-img"]}`}
                   alt="..."
+                  width={800}
+                  height={500}
                 />
               </div>
             </div>
