@@ -9,60 +9,59 @@ import golganTempleImg from "@/assets/images/golganTemple.jpg";
 import krishnaImg from "@/assets/images/krishna.jpg";
 import Footer from "@/components/Layout/Footer";
 import LogiBtn from "@/components/LogiBtn";
-import Image from 'next/image'
+import Image from "next/image";
 
-
-export default function Home() {
+const Home = () => {
   let templeList = [
     {
-      imgSc:"",
-      name:"temple-1",
-      place:"india, kerala",
-      discription:"something"
-    }, 
+      imgSc: "",
+      name: "temple-1",
+      place: "india, kerala",
+      discription: "something",
+    },
     {
-      imgSc:"",
-      name:"temple-1",
-      place:"india, kerala",
-      discription:"something"
-    }, 
+      imgSc: "",
+      name: "temple-1",
+      place: "india, kerala",
+      discription: "something",
+    },
     {
-      imgSc:"",
-      name:"temple-1",
-      place:"india, kerala",
-      discription:"something"
-    }, 
+      imgSc: "",
+      name: "temple-1",
+      place: "india, kerala",
+      discription: "something",
+    },
     {
-      imgSc:"",
-      name:"temple-1",
-      place:"india, kerala",
-      discription:"something"
-    }, 
+      imgSc: "",
+      name: "temple-1",
+      place: "india, kerala",
+      discription: "something",
+    },
     {
-      imgSc:"",
-      name:"temple-1",
-      place:"india, kerala",
-      discription:"something"
-    }, 
+      imgSc: "",
+      name: "temple-1",
+      place: "india, kerala",
+      discription: "something",
+    },
     {
-      imgSc:"",
-      name:"temple-1",
-      place:"india, kerala",
-      discription:"something"
-    }, 
+      imgSc: "",
+      name: "temple-1",
+      place: "india, kerala",
+      discription: "something",
+    },
     {
-      imgSc:"",
-      name:"temple-1",
-      place:"india, kerala",
-      discription:"something"
-    }, 
+      imgSc: "",
+      name: "temple-1",
+      place: "india, kerala",
+      discription: "something",
+    },
     {
-      imgSc:"",
-      name:"temple-1",
-      place:"india, kerala",
-      discription:"something"
-    }, 
-  ]
+      imgSc: "",
+      name: "temple-1",
+      place: "india, kerala",
+      discription: "something",
+    },
+  ];
   return (
     <>
       <Navbar />
@@ -157,7 +156,9 @@ export default function Home() {
           </div>
           <div className="container">
             <div className="row">
-              {templeList.map((temple)=> <ResultCard {...temple} />)}
+              {templeList.map((temple) => (
+                <ResultCard {...temple} />
+              ))}
             </div>
           </div>
         </div>
@@ -165,4 +166,5 @@ export default function Home() {
       <Footer />
     </>
   );
-}
+};
+export default Home;
