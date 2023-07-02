@@ -14,49 +14,49 @@ import Image from "next/image";
 const Home = () => {
   let templeList = [
     {
-      imgSc: "",
+      image: "https://cdn.pixabay.com/photo/2014/02/02/08/41/temple-256588_1280.jpg",
       name: "temple-1",
       place: "india, kerala",
       discription: "something",
     },
     {
-      imgSc: "",
+      image: "https://cdn.pixabay.com/photo/2014/02/02/08/41/temple-256588_1280.jpg",
       name: "temple-1",
       place: "india, kerala",
       discription: "something",
     },
     {
-      imgSc: "",
+      image: "https://cdn.pixabay.com/photo/2014/02/02/08/41/temple-256588_1280.jpg",
       name: "temple-1",
       place: "india, kerala",
       discription: "something",
     },
     {
-      imgSc: "",
+      image: "https://cdn.pixabay.com/photo/2014/02/02/08/41/temple-256588_1280.jpg",
       name: "temple-1",
       place: "india, kerala",
       discription: "something",
     },
     {
-      imgSc: "",
+      image: "https://cdn.pixabay.com/photo/2014/02/02/08/41/temple-256588_1280.jpg",
       name: "temple-1",
       place: "india, kerala",
       discription: "something",
     },
     {
-      imgSc: "",
+      image: "https://cdn.pixabay.com/photo/2014/02/02/08/41/temple-256588_1280.jpg",
       name: "temple-1",
       place: "india, kerala",
       discription: "something",
     },
     {
-      imgSc: "",
+      image: "https://cdn.pixabay.com/photo/2014/02/02/08/41/temple-256588_1280.jpg",
       name: "temple-1",
       place: "india, kerala",
       discription: "something",
     },
     {
-      imgSc: "",
+      image: "https://cdn.pixabay.com/photo/2014/02/02/08/41/temple-256588_1280.jpg",
       name: "temple-1",
       place: "india, kerala",
       discription: "something",
