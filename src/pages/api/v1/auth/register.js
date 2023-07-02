@@ -3,7 +3,7 @@ import User from "../../db/lib/model/User";
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 
-export default async (req, res) => {
+export default async function handler(req, res) => {
   await dbConnect();
   const { method } = req;
   const { name, email, password, phone } = req.body; //  all data comes in req.body from frontend
