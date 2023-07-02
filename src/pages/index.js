@@ -156,8 +156,8 @@ const Home = () => {
           </div>
           <div className="container">
             <div className="row">
-              {templeList.map((temple) => (
-                <ResultCard {...temple} />
+              {templeList.map((temple,index) => (
+                <ResultCard key={index} {...temple} />
               ))}
             </div>
           </div>
