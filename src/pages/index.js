@@ -8,7 +8,7 @@ import ganapathyImg from "@/assets/images/ganapathy.jpg";
 import golganTempleImg from "@/assets/images/golganTemple.jpg";
 import krishnaImg from "@/assets/images/krishna.jpg";
 import Footer from "@/components/Layout/Footer";
-import LogiBtn from "@/components/LogiBtn";
+// import LogiBtn from "@/components/LogiBtn";
 import Image from "next/image";
 
 const Home = () => {
@@ -117,7 +117,7 @@ const Home = () => {
                 humility, and devotion." <br />- Bhagavad Gita
               </h1>
               <div className="mt-5">
-                <LogiBtn />
+                {/* <LogiBtn /> */}
               </div>
             </div>
           </div>

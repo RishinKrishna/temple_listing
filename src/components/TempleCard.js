@@ -17,7 +17,7 @@ const TempleCard = (props) => {
             src={props.image}
             alt=""
             width={800}
-            height={150}
+            height={200}
           />
         </div>
         <div className="px-3">
