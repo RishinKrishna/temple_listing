@@ -8,8 +8,8 @@
   position: relative;
   z-index: 2;
 }
-.captiopn-wrapper{
-  position: relative;  
+.captiopn-wrapper {
+  position: relative;
   height: 100%;
   z-index: 5;
 }
@@ -47,30 +47,29 @@
     /* opacity: 0.5; */
   }
 }
-.search-temple{
-    width: 100%;
-    padding: 50px 250px; 
-    background-color: #fff;
-    border-radius: 20px;
+.search-temple {
+  width: 100%;
+  padding: 50px 250px;
+  background-color: #fff;
+  border-radius: 20px;
 }
 
 @media only screen and (max-width: 600px) {
-  .search-temple{
+  .search-temple {
     width: 100%;
-    padding: 50px 25px; 
+    padding: 50px 25px;
     background-color: #fff;
     border-radius: 20px;
+  }
 }
-
+.find-header {
+  font-size: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #ff6b07;
 }
-.find-header{
-    font-size: 50px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #ff6b07;
-}
-.main-hader{
-  font-size: 40px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+.main-hader {
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   display: flex;
   justify-content: center;
   align-items: center;
