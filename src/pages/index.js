@@ -112,9 +112,9 @@ const Home = () => {
               <h1
                 className={`${Styles["main-hader"]} position-relative text-light`}
               >
-                '"Do everything you have to do, but not with greed, not with ego,
+                "Do everything you have to do, but not with greed, not with ego,
                 not with lust, not with envy but with love, compassion,
-                humility, and devotion." '<br />- Bhagavad Gita
+                humility, and devotion." <br />- Bhagavad Gita
               </h1>
               <div className="mt-5">
                 <LogiBtn />
